@@ -29,4 +29,12 @@ export default class DockerController implements interfaces.Controller {
             data,
         };
     }
+
+    @httpGet(':id')
+    private async dockerId(ctx: IRouterContext): Promise<void> {
+        const data = this.dockerService.getUser(Number(ctx.params.id));
+        ctx.body = {
+            data,
+        };
+    }
 }
