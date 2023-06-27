@@ -7,7 +7,8 @@
     "inversify": "5.0.5",
     "inversify-binding-decorators": "^4.0.0",
     "inversify-koa-utils": "^1.0.0",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^5.0.2"
   },
   "devDependencies": {
     "@types/koa-router": "^7.4.4"
